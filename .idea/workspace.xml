@@ -1,20 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c186663-2954-4fe4-859f-d361969913a1" name="Changes" comment="" />
+    <list default="true" id="8c186663-2954-4fe4-859f-d361969913a1" name="Changes" comment="Before adding database">
+      <change beforePath="$PROJECT_DIR$/patient-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/model/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/model/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Ash28s"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Ash28s/Patient_Management_System.git",
+    "accountId": "40806d20-9ba1-42fb-97e8-f4cb0be4c554"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
   <component name="ProjectId" id="2zbsxTmBStB6KRXCdPSrzTB7ra5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,12 +50,28 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.PatientServiceApplication.executor": "Run",
     "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="PatientServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="patient-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pm.patientservice.PatientServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -44,11 +88,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1752011355522</updated>
-      <workItem from="1752011356595" duration="29000" />
+      <workItem from="1752011356595" duration="1508000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1752011795270</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752011795270</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Before adding database">
+      <option name="closed" value="true" />
+      <created>1752012355606</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752012355606</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="Before adding database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Before adding database" />
   </component>
 </project>

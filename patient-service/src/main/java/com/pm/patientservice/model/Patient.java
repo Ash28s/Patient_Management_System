@@ -10,6 +10,10 @@ import java.util.UUID;
 
 @Entity
 public class Patient {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private UUID id;
+
     @NotNull
     @Email
     @Column(unique = true)
@@ -23,10 +27,6 @@ public class Patient {
 
     @NotNull
     private LocalDate registeredDate;
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private UUID id;
 
     @NotNull
     private String name;
