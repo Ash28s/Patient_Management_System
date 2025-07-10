@@ -4,7 +4,7 @@ Content-Type: application/json
 
 {
   "name": "Ash Sen",
-  "email": "ashsen@gmail.com",
+  "email": "",
   "address": "AIT Pune",
   "dateOfBirth": "2004-06-28",
   "registeredDate": "2025-06-01"
