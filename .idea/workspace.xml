@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c186663-2954-4fe4-859f-d361969913a1" name="Changes" comment="Created Patient service request DTO and patient controller nad testing">
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/exception/GlobalExceptionHandler.java" afterDir="false" />
+    <list default="true" id="8c186663-2954-4fe4-859f-d361969913a1" name="Changes" comment="Request Validation Handler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,28 +51,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.create-patient | Creates a new patient.executor": "Run",
-    "HTTP Request.create-patient | GET request to example server.executor": "Run",
-    "HTTP Request.get-patients | GET request to get all patients.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.PatientServiceApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.create-patient | Creates a new patient.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.create-patient | GET request to example server.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.get-patients | GET request to get all patients.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.PatientServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Spring Boot.PatientServiceApplication">
     <configuration name="create-patient | Creates a new patient" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/patient-service/create-patient.http" requestIdentifier="Creates a new patient" runType="Run single request">
       <method v="2" />
@@ -121,7 +120,9 @@
       <workItem from="1752088793215" duration="11000" />
       <workItem from="1752088820243" duration="6176000" />
       <workItem from="1752157292450" duration="5376000" />
-      <workItem from="1752172109609" duration="6277000" />
+      <workItem from="1752172109609" duration="6387000" />
+      <workItem from="1752228460584" duration="21000" />
+      <workItem from="1752313519452" duration="1921000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -179,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752181269461</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Request Validation Handler">
+      <option name="closed" value="true" />
+      <created>1752185895404</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1752185895404</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +202,7 @@
     <MESSAGE value="Created service layer" />
     <MESSAGE value="Created controller and Testing server like postman in intellij" />
     <MESSAGE value="Created Patient service request DTO and patient controller nad testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Patient service request DTO and patient controller nad testing" />
+    <MESSAGE value="Request Validation Handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Request Validation Handler" />
   </component>
 </project>
