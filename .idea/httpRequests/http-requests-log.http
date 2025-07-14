@@ -1,5 +1,43 @@
 POST http://localhost:4000/patients
 Content-Type: application/json
+Content-Length: 144
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Ash Sen",
+  "email": "test@example.com",
+  "address": "AIT Pune",
+  "dateOfBirth": "2004-06-28",
+  "registeredDate": "2025-06-01"
+}
+
+<> 2025-07-15T031326.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 144
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Ash Sen",
+  "email": "test@example.com",
+  "address": "AIT Pune",
+  "dateOfBirth": "2004-06-28",
+  "registeredDate": "2025-06-01"
+}
+
+<> 2025-07-15T031322.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
 Content-Length: 128
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.6
 Accept-Encoding: br, deflate, gzip, x-gzip
