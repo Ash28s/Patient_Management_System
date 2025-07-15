@@ -1,3 +1,129 @@
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 154
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Ash Sen22",
+  "email": "test22@example.com",
+  "address": "AIT Pune Dighi",
+  "dateOfBirth": "2004-06-28",
+  "registeredDate": "2025-06-01"
+}
+
+<> 2025-07-15T180849.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 120
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Ash Sen22",
+  "email": "test22@example.com",
+  "address": "AIT Pune Dighi",
+  "dateOfBirth": "2004-06-28"
+}
+
+<> 2025-07-15T180832.400.json
+
+###
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 111
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "",
+  "address": "123 Main St, Springfield",
+  "dateOfBirth": "1985-06-15"
+}
+
+<> 2025-07-15T180734.400.json
+
+###
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 135
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "test_updated@example.com",
+  "address": "123 Main St, Springfield",
+  "dateOfBirth": "1985-06-15"
+}
+
+<> 2025-07-15T180724.200.json
+
+###
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 111
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "",
+  "address": "123 Main St, Springfield",
+  "dateOfBirth": "1985-06-15"
+}
+
+<> 2025-07-15T180132.400.json
+
+###
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 128
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "test2@example.com",
+  "address": "123 Main St, Springfield",
+  "dateOfBirth": "1985-06-15"
+}
+
+<> 2025-07-15T180114.400.json
+
+###
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 96
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "address": "123 Main St, Springfield",
+  "dateOfBirth": "1985-06-15"
+}
+
+<> 2025-07-15T180106.400.json
+
+###
+
 PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
 Content-Type: application/json
 Content-Length: 128
