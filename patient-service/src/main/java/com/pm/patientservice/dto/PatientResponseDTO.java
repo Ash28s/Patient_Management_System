@@ -47,6 +47,4 @@ public class PatientResponseDTO {
         this.dateOfBirth = dateOfBirth;
     }
 
-
-
 }

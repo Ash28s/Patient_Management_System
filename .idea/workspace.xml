@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c186663-2954-4fe4-859f-d361969913a1" name="Changes" comment="update endpoint">
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/dto/validators/CreatePatientValidationGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+    <list default="true" id="8c186663-2954-4fe4-859f-d361969913a1" name="Changes" comment="patient email validation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-requests/patient-service/create-patient.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-requests/patient-service/create-patient.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-requests/patient-service/update-patient.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-requests/patient-service/update-patient.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/controller/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/controller/PatientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/dto/PatientRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/dto/PatientRequestDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,29 +52,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.create-patient | Creates a new patient.executor": "Run",
-    "HTTP Request.create-patient | GET request to example server.executor": "Run",
-    "HTTP Request.get-patients | GET request to get all patients.executor": "Run",
-    "HTTP Request.update-patient | Updates an existing patient entity.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.PatientServiceApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.create-patient | Creates a new patient.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.create-patient | GET request to example server.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.get-patients | GET request to get all patients.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.update-patient | Updates an existing patient entity.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.PatientServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Spring Boot.PatientServiceApplication">
     <configuration name="create-patient | Creates a new patient" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/patient-service/create-patient.http" requestIdentifier="Creates a new patient" runType="Run single request">
       <method v="2" />
@@ -104,8 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.create-patient | Creates a new patient" />
         <item itemvalue="HTTP Request.update-patient | Updates an existing patient entity" />
+        <item itemvalue="HTTP Request.create-patient | Creates a new patient" />
         <item itemvalue="HTTP Request.create-patient | GET request to example server" />
         <item itemvalue="HTTP Request.get-patients | GET request to get all patients" />
       </list>
@@ -138,7 +132,8 @@
       <workItem from="1752333248903" duration="577000" />
       <workItem from="1752496889558" duration="422000" />
       <workItem from="1752522478877" duration="6914000" />
-      <workItem from="1752574940344" duration="6467000" />
+      <workItem from="1752574940344" duration="6819000" />
+      <workItem from="1752602757426" duration="133000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -228,7 +223,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752582561221</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update endpoint validation">
+      <option name="closed" value="true" />
+      <created>1752583166271</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1752583166271</updated>
+    </task>
+    <task id="LOCAL-00013" summary="patient email validation">
+      <option name="closed" value="true" />
+      <created>1752583425438</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1752583425438</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +257,8 @@
     <MESSAGE value=".." />
     <MESSAGE value="error handling request business logic custom exception" />
     <MESSAGE value="update endpoint" />
-    <option name="LAST_COMMIT_MESSAGE" value="update endpoint" />
+    <MESSAGE value="update endpoint validation" />
+    <MESSAGE value="patient email validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="patient email validation" />
   </component>
 </project>
